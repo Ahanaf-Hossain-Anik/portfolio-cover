@@ -1,0 +1,151 @@
+body {
+  font-family: "poppins" sans-serif;
+  margin: 0;
+}
+section {
+  width: 100%;
+  height: 100vh;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.top {
+  background-image: url(image/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.button {
+  color: whitesmoke;
+  padding-left: 60px;
+  text-decoration: none;
+  font-size: 50px;
+  background-image: linear-gradient(45deg, orange, red);
+  box-shadow: 12px 8px 33px grey;
+  border: none;
+  padding: 20px 35px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 25px;
+
+  transition: 0.2s;
+}
+.button:hover {
+  transform: translateY(0) scale(1.2);
+  background-image: linear-gradient(45deg, red, orange);
+}
+.bit {
+  color: whitesmoke;
+  padding-left: 60px;
+  text-decoration: none;
+  font-size: 50px;
+  background-image: linear-gradient(45deg, red, blue);
+  box-shadow: 12px 8px 33px grey;
+  border: none;
+  padding: 20px 35px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+.bit:hover {
+  transform: translateY(0) scale(1.2);
+  background-image: linear-gradient(45deg, blue, red);
+}
+.first {
+  flex: 100%;
+  background-image: url(image/exp-bg.png);
+  background-size: 10%;
+  background-repeat: no-repeat;
+  margin: 0px 40px 30px 0px;
+  padding: 32px 30px 2px 120px;
+}
+.pic {
+  flex: auto;
+
+  margin: 0px 10px 5px 0px;
+  padding-left: 20px;
+}
+.bic {
+  flex: auto;
+
+  margin: 0px 0px 5px 130px;
+  padding-right: 20px;
+}
+h1 {
+  font-size: 60px;
+  height: 60px;
+}
+h3 {
+  color: orange;
+  padding-bottom: 20px;
+  font-size: 26px;
+  height: 30px;
+}
+p {
+  color: darkolivegreen;
+  font-family: "cascadia" sans-serif;
+  text-indent: 30px;
+  font-size: 25px;
+  text-align: justify;
+}
+.name {
+  color: ;
+}
+.anik {
+  color: red;
+}
+
+.sop {
+  background-image: url(image/biography-bg.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.second {
+  flex: 100%;
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 0px 0px 30px 0px;
+  padding: 32px 120px 2px 0px;
+}
+.eop {
+  background-image: url(image/exp-bg.png);
+  overflow: visible;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 8%;
+  display: flex;
+}
+.third {
+  flex: 100%;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, orange, red);
+  border-image-slice: 1;
+
+  background-repeat: no-repeat;
+  padding: 10px 30px 10px 30px;
+  margin: 3px 20px 300px 100px;
+  box-shadow: 20px 20px 40px gray;
+}
+
+.nip {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, red, blue);
+  border-image-slice: 1;
+  padding: 10px 30px 10px 30px;
+  margin: 3px 100px 300px 80px;
+  box-shadow: 20px 20px 40px gray;
+}
+footer {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
